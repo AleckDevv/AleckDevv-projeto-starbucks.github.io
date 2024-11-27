@@ -6,6 +6,83 @@
    box-sizing: border-box;
 }
 
+:root {
+   --linha-header: #117050;
+   --cor-botao-pesquisa: #999;
+   --cor-menu: #000;
+}
+
 body {
    font-family: 'Open Sans, sans-serif';
+}
+
+header .linha {
+   background-color: var(--linha-header);
+   height: 10px;
+}
+
+.container {
+   max-width: 1140px;
+   margin: auto;
+}
+
+.logo img {
+   width: 80px;
+   cursor: pointer;
+}
+
+.header-direita {
+   display: flex;
+   align-items: center;
+}
+
+.header--area {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 100px;
+   margin-top: 25px;
+}
+
+.header-pesquisa form {
+   display: flex;
+}
+
+.header-pesquisa input {
+   font-size: 16px;
+   padding: 8px 15px;
+   border: 1px solid var(--cor-botao-pesquisa);
+   outline: none;
+   width: 100%;
+   max-width: 250px;
+}
+
+.header-pesquisa button {
+   border: 0;
+   background: transparent;
+   margin-left: -30px;
+   cursor: pointer;
+}
+
+.header-pesquisa button img {
+   width: 16px;
+   height: 16px;
+}
+
+.menu {
+   margin-left: 50px;
+   cursor: pointer;
+}
+
+.menu ul {
+   display: flex;
+   gap: 10px;
+   flex-direction: column;
+   list-style: none;
+}
+
+.menu li {
+   width: 30px;
+   height: 3px;
+   background-color: var(--cor-menu);
 }
