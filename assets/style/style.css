@@ -12,9 +12,7 @@
    --cor-menu: #000;
 }
 
-body {
-   font-family: 'Open Sans, sans-serif';
-}
+
 
 header .linha {
    background-color: var(--linha-header);
@@ -85,4 +83,39 @@ header .linha {
    width: 30px;
    height: 3px;
    background-color: var(--cor-menu);
+}
+
+.banner {
+   background-image: url("../images/bg.jpg");
+   background-position: center;
+   background-size: cover;
+   padding-top: 90px;
+   padding-bottom: 90px;
+}
+
+.banner h1 {
+   font-family: 'Oswald', sans-serif;
+   font-weight: bold;
+   font-size: 100px;
+   line-height: 100px;
+   margin: 0;
+   margin-bottom: 40px;
+}
+
+.banner-imagens img {
+   width: 148px;
+   height: 148px;
+   border: 8px solid var(--linha-header);
+   border-radius: 50%;
+   margin-right: 30px;
+}
+
+.banner-imagens img:hover {
+   transition: 0.3s ease-in-out;
+   transform: scale(1.2);
+   cursor: pointer;
+}
+
+.banner-imagens {
+   margin-top: 60px;
 }
