@@ -1,6 +1,6 @@
 # Criando o arquivo README.md com o conteúdo personalizado
 
-readme_content = """
+
 # Starbucks Landing Page
 
 ## Sobre o Projeto
