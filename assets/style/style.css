@@ -247,3 +247,43 @@ header .linha {
    background-size: cover;
    background-position: center;
 }
+
+.area4 {
+   display: grid;
+   grid-template-columns: 780px 1fr;
+}
+
+.area4-conteudo {
+   padding: 160px 80px;
+   background-color: #E8E9EE;
+}
+
+.area4-texto {
+   line-height: 25px;
+   font-size: 20px;
+}
+
+.area4-img1 {
+   background-image: url('../images/bg3.jpg');
+   background-position: left;
+}
+
+.area5 {
+   background-image: url('../images/bg4.jpg');
+   background-position: center;
+   background-size: cover;
+   height: 750px;
+}
+
+footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #333333;
+   color: #fff;
+   padding: 80px;
+}
+
+.creditos h3 {
+   margin-bottom: 15px;
+}
