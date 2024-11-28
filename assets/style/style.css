@@ -250,7 +250,7 @@ header .linha {
 
 .area4 {
    display: grid;
-   grid-template-columns: 780px 1fr;
+   grid-template-columns: 760px 1fr;
 }
 
 .area4-conteudo {
@@ -286,4 +286,91 @@ footer {
 
 .creditos h3 {
    margin-bottom: 15px;
+}
+
+@media (min-width: 769px) and (max-width: 1440px) {
+   .container {
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+   .container {
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+
+   .area1 {
+      grid-template-columns: 3fr 2fr;
+   }
+
+   .area2 {
+      grid-template-columns: 2fr 3fr;
+   }
+
+   .area3 {
+      grid-template-columns: 3fr 2fr;
+   }
+}
+
+@media (max-width: 425px) {
+   .container {
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+
+   .menu {
+      margin-left: 19px;
+   }
+
+   .header-pesquisa input {
+      max-width: 150px;
+   }
+
+   h1 {
+      font-size: 50px;
+      line-height: 50px;
+   }
+
+   h2 {
+      font-size: 25px;
+      line-height: 30px;
+   }
+
+   .bannerc span {
+      display: block;
+      font-size: 1px;
+   }
+
+   .banner-imagens img {
+      width: 70px;
+      height: 70px;
+      border-radius: 3px solid var(--cor-barra);
+      border-radius: 50%;
+      margin-right: 10px;
+   }
+
+   .area1,
+   .area2,
+   .area3,
+   .area4 {
+      grid-template-columns: 1fr;
+   }
+
+   .area1-conteudo,
+   .area2-conteudo,
+   .area3-conteudo,
+   .area4-conteudo {
+      padding: 40px;
+   }
+
+   .area5 {
+      height: 200px;
+   }
+
+   footer {
+      font-size: 12px;
+      padding: 40px 20px;
+   }
 }
