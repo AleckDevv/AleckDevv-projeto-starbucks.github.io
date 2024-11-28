@@ -210,7 +210,6 @@ header .linha {
 }
 
 .area2-img1 {
-   background-color: aqua;
    height: 450px;
    background-image: url('../images/f4.jpg');
    background-size: cover;
@@ -221,6 +220,30 @@ header .linha {
    grid-column: 1 / 2;
    grid-row: 1 / 3;
    background-image: url('../images/f3.jpg');
+   background-size: cover;
+   background-position: center;
+}
+
+
+.area3 {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.area3-conteudo {
+   padding: 280px 70px;
+   background-image: url('../images/bg2.jpg');
+   background-position: left;
+   background-size: cover;
+}
+
+.area3-texto {
+   line-height: 25px;
+   font-size: 20px;
+}
+
+.area3-img1 {
+   background-image: url('../images/f5.jpg');
    background-size: cover;
    background-position: center;
 }
